@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.banner{
+    background-image: url(../img/banner-topo.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: auto;
+    padding: 120px 80px;
+}
+
+.box-logo{
+    max-width: 250px;
+    color: #3c184e;
+}
