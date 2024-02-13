@@ -118,5 +118,38 @@
     border-radius: 5px;
     box-shadow: 3px 6px 10px 6px #0000005c;
     margin-right: 5px;
+}
 
+/* Estilizando na seção .faixas */
+.faixa-redes-sociais{
+    padding: 120px 80px;
+    background-color: #3c184e;
+    align-items: center;
+}
+
+.p-faixa{
+    max-width: 800px;
+    margin: 0 auto 50px;
+    font-size: 40px;
+    color: #ffff;
+    text-align: center;
+}
+
+.p-faixa span{
+    font-weight: 700;
+    font-style: italic;
+}
+
+.redes-sociais{
+    text-align: center;
+}
+
+.redes-sociais a{
+    text-decoration: none;
+    margin: 0 20px;
+}
+
+.redes-sociais img{
+    width: 50px;
+    height: 50px;
 }
