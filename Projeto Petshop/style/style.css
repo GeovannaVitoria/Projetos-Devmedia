@@ -1,9 +1,12 @@
+/* Config gerais */
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: sans-serif;
 }
+
+/* Estilizando o banner */
 
 .banner{
     background-image: url(../img/banner-topo.jpg);
@@ -69,4 +72,51 @@
 
 .link-banner img{
     width: 20px;
+}
+
+/* Estilizando a seção .servicos */
+.servicos{
+    width: 100%;
+    padding: 120px 80px;
+}
+
+.servicos h3{
+    font-size: 36px;
+    color:  #3c184e;
+    text-align: center;
+    margin: 0 0 45px;
+}
+
+.box-lista{
+    max-width: 800px;
+    margin: 0 auto 50px;
+    color: #3c184e;
+}
+
+.box-lista ul{
+    list-style-type: square;
+}
+
+.box-lista ul li{
+    font-size: 20px;
+    margin: 0 0 20px;
+}
+
+.box-lista ul li span{
+    font-weight: 700;
+    font-style: italic;
+}
+
+.box-img-servicos{
+    max-width: 800px;
+    margin: 0 auto 0;
+    align-items: center;
+    display: flex;
+}
+
+.box-img-servicos img{
+    border-radius: 5px;
+    box-shadow: 3px 6px 10px 6px #0000005c;
+    margin-right: 5px;
+
 }
