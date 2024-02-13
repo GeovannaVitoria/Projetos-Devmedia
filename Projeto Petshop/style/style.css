@@ -178,3 +178,51 @@
     height: 148px;
     margin: 0 15px 0;
 }
+
+/* Estilização da seção .localizacao */
+.localizacao{
+    width: 100%;
+    padding: 120px 80px;
+    text-align: center;
+}
+
+.localizacao h3{
+    font-size: 36px;
+    color: #3c184e;
+    text-align: center;
+    margin: 0 0 45px;
+}
+
+.localizacao p{
+    font-size: 20px;
+    color: #3c184e;
+    text-align: center;
+    margin: 0 0 45px;
+}
+
+.localizacao iframe{
+    width: 800px;
+    height: 450px;
+    margin: auto;
+}
+
+/* Estilização do .rodape */
+.rodape{
+    width: 100%;
+    padding: 10px 0;
+    background-color: #3c184e;
+}   
+
+.rodape p{
+    color: #ffff;
+    text-align: center;
+}
+
+.rodape p a{
+    text-decoration: none;
+    color: #ffff;
+}
+
+.rodape p a span{
+    text-decoration: underline;
+}
