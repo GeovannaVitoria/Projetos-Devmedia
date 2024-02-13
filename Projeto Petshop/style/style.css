@@ -18,3 +18,55 @@
     max-width: 250px;
     color: #3c184e;
 }
+
+.box-logo img{
+    width: 30px;
+    margin-right: 5px;
+}
+
+.banner-p-first{
+    font-size: 35px;
+    margin-bottom: 5px;
+}
+
+.banner-p-second{
+    font-size: 14px;
+    text-align: center;
+    margin: 0;
+}
+
+.texto-banner{
+    max-width: 1024px;
+    border-radius: 10px;
+    padding: 40px;
+    margin: 70px auto 0px;
+    background-color:  #ffffffc4;
+    box-shadow: 0 8px 32px #1f26875e;
+}
+
+.texto-banner h1{
+    font-size: 60px;
+    color: #3c184e;
+    text-align: center;
+    font-weight: 800;
+    margin: 0 0 40px;
+}
+
+.link-banner{
+    width: 200px;
+    padding: 10px 20px;
+    margin: 0 auto;
+    border-radius: 10px;
+    background-color: #3c184e;
+    font-size: 20px;
+    text-align: center;
+}
+
+.link-banner a{
+    text-decoration: none;
+    color: #ffff;
+}
+
+.link-banner img{
+    width: 20px;
+}
