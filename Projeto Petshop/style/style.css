@@ -1,0 +1,228 @@
+/* Config gerais */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+/* Estilizando o banner */
+
+.banner{
+    background-image: url(../img/banner-topo.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: auto;
+    padding: 120px 80px;
+}
+
+.box-logo{
+    max-width: 250px;
+    color: #3c184e;
+}
+
+.box-logo img{
+    width: 30px;
+    margin-right: 5px;
+}
+
+.banner-p-first{
+    font-size: 35px;
+    margin-bottom: 5px;
+}
+
+.banner-p-second{
+    font-size: 14px;
+    text-align: center;
+    margin: 0;
+}
+
+.texto-banner{
+    max-width: 1024px;
+    border-radius: 10px;
+    padding: 40px;
+    margin: 70px auto 0px;
+    background-color:  #ffffffc4;
+    box-shadow: 0 8px 32px #1f26875e;
+}
+
+.texto-banner h1{
+    font-size: 60px;
+    color: #3c184e;
+    text-align: center;
+    font-weight: 800;
+    margin: 0 0 40px;
+}
+
+.link-banner{
+    width: 200px;
+    padding: 10px 20px;
+    margin: 0 auto;
+    border-radius: 10px;
+    background-color: #3c184e;
+    font-size: 20px;
+    text-align: center;
+}
+
+.link-banner a{
+    text-decoration: none;
+    color: #ffff;
+}
+
+.link-banner img{
+    width: 20px;
+}
+
+/* Estilizando a seção .servicos */
+.servicos{
+    width: 100%;
+    padding: 120px 80px;
+}
+
+.servicos h3{
+    font-size: 36px;
+    color:  #3c184e;
+    text-align: center;
+    margin: 0 0 45px;
+}
+
+.box-lista{
+    max-width: 800px;
+    margin: 0 auto 50px;
+    color: #3c184e;
+}
+
+.box-lista ul{
+    list-style-type: square;
+}
+
+.box-lista ul li{
+    font-size: 20px;
+    margin: 0 0 20px;
+}
+
+.box-lista ul li span{
+    font-weight: 700;
+    font-style: italic;
+}
+
+.box-img-servicos{
+    max-width: 800px;
+    margin: 0 auto 0;
+    align-items: center;
+    display: flex;
+}
+
+.box-img-servicos img{
+    border-radius: 5px;
+    box-shadow: 3px 6px 10px 6px #0000005c;
+    margin-right: 5px;
+}
+
+/* Estilizando na seção .faixas */
+.faixa-redes-sociais{
+    padding: 120px 80px;
+    background-color: #3c184e;
+    align-items: center;
+}
+
+.p-faixa{
+    max-width: 800px;
+    margin: 0 auto 50px;
+    font-size: 40px;
+    color: #ffff;
+    text-align: center;
+}
+
+.p-faixa span{
+    font-weight: 700;
+    font-style: italic;
+}
+
+.redes-sociais{
+    text-align: center;
+}
+
+.redes-sociais a{
+    text-decoration: none;
+    margin: 0 20px;
+}
+
+.redes-sociais img{
+    width: 50px;
+    height: 50px;
+}
+
+/* Estlização da seção .marcas */
+.marcas{
+    width: 100%;
+    padding: 120px 80px;
+}
+
+.marcas h3{
+    font-size: 30px;
+    color: #3c184e;
+    text-align: center;
+    margin: 0 0 45px;
+    font-weight: bolder;
+}
+
+.box-img-marca{
+    max-width: 800px;
+    margin: 0 auto 0;
+}
+
+.box-img-marca img{
+    width: 148px;
+    height: 148px;
+    margin: 0 15px 0;
+}
+
+/* Estilização da seção .localizacao */
+.localizacao{
+    width: 100%;
+    padding: 120px 80px;
+    text-align: center;
+}
+
+.localizacao h3{
+    font-size: 36px;
+    color: #3c184e;
+    text-align: center;
+    margin: 0 0 45px;
+}
+
+.localizacao p{
+    font-size: 20px;
+    color: #3c184e;
+    text-align: center;
+    margin: 0 0 45px;
+}
+
+.localizacao iframe{
+    width: 800px;
+    height: 450px;
+    margin: auto;
+}
+
+/* Estilização do .rodape */
+.rodape{
+    width: 100%;
+    padding: 10px 0;
+    background-color: #3c184e;
+}   
+
+.rodape p{
+    color: #ffff;
+    text-align: center;
+}
+
+.rodape p a{
+    text-decoration: none;
+    color: #ffff;
+}
+
+.rodape p a span{
+    text-decoration: underline;
+}
