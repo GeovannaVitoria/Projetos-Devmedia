@@ -126,15 +126,6 @@ header{
     color: #585858;
 }
 
-/* .container-lista ul{
-    width: 500px;
-    border: 1px solid;
-} */
-
-.container-lista ul li{
-    /* border: 1px solid blue; */
-}
-
 /* Estilizando o rodapé */
 footer{
     background-color: rgb(92, 153, 92);
