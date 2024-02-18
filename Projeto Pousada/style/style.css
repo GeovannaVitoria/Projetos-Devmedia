@@ -1,0 +1,220 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Source Sans Pro', 'sans-serif';
+}
+
+/* Estilização do topo da página */
+
+header{
+    width: 100%;
+    position: fixed;
+    background-color: white;
+}
+
+.menu{
+    width: 1024px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 10px;
+}
+
+.link-topo-titulo{
+    color: black;
+    text-decoration: none;
+    font-size: 23px;
+    font-weight: 500;
+}
+
+.link-topo-titulo span{
+    color: lightblue;
+}
+
+.link-topo{
+    color: black;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: normal;
+    text-transform: uppercase;
+    margin: 0 10px 0 ;
+}
+
+/* Estilização do banner */
+main{
+    width: 100%;
+    height: 550px;
+    background-image: url(../assets/img-fundo.jpg);
+    background-position: center;
+    background-size: cover;
+    padding: 190px 80px;
+}
+
+.texto-banner{
+    margin: 0 auto;
+    width: 450px;
+    padding: 15px;
+    border-radius: 6px;
+    color: white;
+    background-color: rgba(52, 125, 60, 0.38);
+    border: 1px solid white;
+    text-align: center;
+}
+
+.texto-banner h1{
+    font-size: 50px;
+    padding: 20px 10px;
+}
+
+.texto-banner p{
+    font-size: 23px;
+    padding: 20px 10px;
+}
+
+/* Estilizando todos os containers de apresentação do conteúdo */
+.box-apresentacao{
+    width: 1024px;
+    height: 250px;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.box-apresentacao h1{
+    text-transform: uppercase;
+    font-weight: normal;
+    font-size: 30px;
+    color: #333333;
+    padding: 0 0 20px;
+}
+
+.box-apresentacao p{
+    font-size: 17px;
+    color: #585858;
+    padding: 10px 0;
+}
+
+/* Estilizando a seção dos quartos */
+.container-quartos{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.quartos{
+    width: 25%;
+    height: 280px;
+    margin-right: 20px;
+    text-align: center;
+    border-bottom: 2px solid lightblue;
+}
+
+.quartos img{
+    width: 100%;
+}
+
+.quartos p{
+    margin: 20px 0;
+}
+
+.quartos a{
+    color: #333333;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+/* Estilizando o iframe da página */
+iframe{
+    width: 100%;
+}
+
+/* Estilizando os cards da seção sobre */
+.container-sobre{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.card-sobre{
+    width: 500px;
+    height: 120px;
+    padding: 10px;
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.card-texto-sobre h1{
+    color: #333333;
+    padding: 5px 0;
+}
+
+.card-texto-sobre p{
+    color: #585858;
+    padding: 5px 0;
+}
+
+.card-sobre img{
+    width: 120px;
+    height: 120px;
+}
+
+.card-sobre:last-of-type p{
+    padding-right: 150px;
+}
+
+/* Estilizando o rodapé */
+footer{
+    background-color: rgb(92, 153, 92);
+    color: #ffff;
+    margin-top: 30px ;
+}
+
+.limita-footer{
+    width: 1024px;
+    margin: 0 auto;
+}
+
+.footer-contato{
+    display: flex;
+    padding: 40px;
+    border-bottom: 2px solid lightblue;
+}
+
+.footer-titulo{
+    font-size: 12px;
+}
+
+.footer-card-contato{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    margin: 0 30px 0;
+    width: 300px;
+}
+
+.footer-card-contato a{
+    text-decoration: none;
+    color: #ffff;
+}
+
+.footer-card-contato img{
+    width: 40px;
+    height: 40px;
+}
+
+.footer-card-contato:nth-child(3) a{
+    padding-top: 10px;
+}
+
+.footer-nome{
+    text-align: center;
+    padding: 15px;
+}
+

@@ -1,25 +1,31 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pousada Secreta</title>
+    <!-- Link para a folha de estilo -->
     <link rel="stylesheet" href="style/style.css">
+
+    <!-- Link para fonte utilizada -->
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap">
+
 </head>
 
 <body>
     <header>
         <div class="menu">
-            <nav>
-                <h1> <a href="index.html">Pousada <span>Secreta</span></a> </h1>
+            <div class="menu-titulo">
+                <a class="link-topo-titulo" href="index.html">Pousada <span>Secreta</span></a>
+            </div>
 
-
-                <ul>
-                    <li><a href="index.html#box-sobre">Sobre</a></li>
-                    <li><a href="index.html#box-rota">Rotas</a></li>
-                    <li><a href="#">Quartos</a></li>
-                </ul>
-            </nav>
+            <div class="menu-links">
+                <a class="link-topo" href="index.html#box-sobre">Sobre</a>
+                <a class="link-topo" href="index.html#box-rota">Rotas</a>
+                <a class="link-topo" href="#">Quartos</a>
+            </div>
         </div>
     </header>
 
@@ -30,8 +36,8 @@
         </div>
     </main>
 
-    <section class="box-bem-vindo">
-        <h2> Seja bem-vindo! </h2>
+    <section class="box-apresentacao">
+        <h1> Seja bem-vindo(a)! </h1>
         <p> Relaxe em nossas acomodações e curta o melhor de Angra dos Reis. </p>
         <p> Temos quartos para solteiro, casal ou família. </p>
     </section>
@@ -39,21 +45,21 @@
     <section class="container-quartos">
         <div class="quartos">
             <img src="assets/quarto-solteiro1.jpg" alt="">
-            <a href="#"> Quarto de solteiro </a>
+            <p><a href="#"> Quarto de solteiro </a></p>
         </div>
 
         <div class="quartos">
             <img src="assets/quarto-casal1.jpg" alt="">
-            <a href="#"> Quarto de casal</a>
+            <p><a href="#"> Quarto de casal</a></p>
         </div>
 
         <div class="quartos">
             <img src="assets/quarto-familia1.jpg" alt="">
-            <a href="#"> Quarto família </a>
+            <p><a href="#"> Quarto família </a></p>
         </div>
     </section>
 
-    <section class="box-rota" id="box-rota">
+    <section  class="box-apresentacao" id="box-rota">
         <h1> Rotas </h1>
         <p> Veja como chegar até a pousada. </p>
     </section>
@@ -63,49 +69,43 @@
         width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
         referrerpolicy="no-referrer-when-downgrade"></iframe>
 
-    <section class="box-titulo-sobre" id="box-sobre">
+    <section  class="box-apresentacao" id="box-sobre">
         <h1> Sobre a pousada! </h1>
         <p> Conheça um pouco sobre nossa pousada. </p>
     </section>
 
     <section class="container-sobre">
-        <div class="card-sobre">
-            <div class="card-texto-sobre">
-                <h1> A pousada </h1>
-                <p> A Pousada Dev dispõe de estacionamento privativo gratuito, piscina ao ar livre e bar. </p>
+            <div class="card-sobre">
+                <div class="card-texto-sobre">
+                    <h1> A pousada </h1>
+                    <p> A Pousada Dev dispõe de estacionamento privativo gratuito, piscina ao ar livre e bar. </p>
+                </div>
+                <img src="assets/img1.jpg" alt="">
+            </div>
+            <div class="card-sobre">
+                <div class="card-texto-sobre">
+                    <h1> Nossos quartos </h1>
+                    <p> Os quartos possuem TV de tela plana a cabo, cozinha compacta e área para refeições. Além disso, as
+                        unidades da Pousada Dev contam com ar-condicionado e guarda-roupa. </p>
+                </div>
+                <img src="assets/img2.jpg" alt="">
             </div>
 
-            <img src="assets/img1.jpg" alt="">
-        </div>
-
-        <div class="card-sobre">
-            <div class="card-texto-sobre">
-                <h1> Nossos quartos </h1>
-                <p> Os quartos possuem TV de tela plana a cabo, cozinha compacta e área para refeições. Além disso, as
-                    unidades da Pousada Dev contam com ar-condicionado e guarda-roupa. </p>
+            <div class="card-sobre">
+                <div class="card-texto-sobre">
+                    <h1> Alimentação </h1>
+                    <p> A pousada serve café da manhã em estilo continental ou buffet.
+                        Nossos restaurantes funcionam 24hrs </p>
+                </div>
+                <img src="assets/img3.jpg" alt="">
             </div>
-
-            <img src="assets/img2.jpg" alt="">
-        </div>
-
-        <div class="card-sobre">
-            <div class="card-texto-sobre">
-                <h1> Alimentação </h1>
-                <p> A pousada serve café da manhã em estilo continental ou buffet.
-                    Nossos restaurantes funcionam 24hrs </p>
+            <div class="card-sobre">
+                <div class="card-texto-sobre">
+                    <h1> Recepção </h1>
+                    <p> Nossa recepção fica aberta 24hrs. </p>
+                </div>
+                <img src="assets/img5.jpg" alt="">
             </div>
-
-            <img src="assets/img3.jpg" alt="">
-        </div>
-
-        <div class="card-sobre">
-            <div class="card-texto-sobre">
-                <h1> Recepção </h1>
-                <p> Nossa recepção fica aberta 24hrs. </p>
-            </div>
-
-            <img src="assets/img5.jpg" alt="">
-        </div>
     </section>
 
     <footer>
@@ -139,4 +139,5 @@
         </div>
     </footer>
 </body>
+
 </html>
