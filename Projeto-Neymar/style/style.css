@@ -1,0 +1,167 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main{
+    height: 100vh;
+}
+
+main video{
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.conteudo-main{
+    width: 1024px;
+    margin: 0 auto;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.logo{
+    width: 200px;
+    height: 170px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.logo h1{
+    color: #ffff;
+    text-shadow: 0 2px #000000 ;
+}
+
+.border-image{
+    width: 130px;
+    height: 130px;
+    border-radius: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    background: linear-gradient(90deg, #ffdf00, #009c3b);
+}
+
+.border-image img{
+    width: 120px;
+    height: 120px;
+    border-radius: 100%;
+}
+
+.container-links{
+    width: 768px;
+    height: 250px;
+}
+
+.container-links a{
+    text-decoration: none;
+    color: #ffff;
+    background-color: #0200006e;
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+.yt::before{
+    content: " ";
+    background: url(../assets/youtube.png);
+    background-size: 20px 20px;
+    padding: 10px;
+}
+
+.in::before{
+    content: " ";
+    background: url(../assets/instagram.png);
+    background-size: 20px 20px;
+    padding: 10px;
+}
+
+.tw::before{
+    content: " ";
+    background: url(../assets/twitter.png);
+    background-size: 20px 20px;
+    padding: 10px;
+}
+
+.fac::before{
+    content: " ";
+    background: url(../assets/facebook.png);
+    background-size: 20px 20px;
+    padding: 10px;
+}
+
+.th::before{
+    content: " ";
+    background: url(../assets/twitch.png);
+    background-size: 20px 20px;
+    padding: 10px;
+}
+
+.container-links a:hover{
+    background-color: #ffff;
+    color: #000000;
+}
+
+.estatisticas{
+    width: 100%;
+    height: 100vh;
+    background-image: url(../assets/imagem-de-fundo.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+.estatisticas h1{
+    color: #ffff;
+    text-shadow: 0 2px #000000;
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 40px;
+}
+
+table{
+    width: 768px;
+    margin: 0 auto;
+}
+
+table tr th{
+    padding: 20px;
+}
+
+table tr td{
+    padding: 20px;
+}
+
+thead{
+    background-color: #000000cc;
+    color: #ffff;
+}
+
+table tbody tr:nth-of-type(even){
+    background-color: #000000cc;
+    color: #ffff;
+}
+
+table tbody tr:nth-of-type(odd){
+    background-color: #ffffffcc;
+    color: #000000;
+}
+
+
+tbody{
+    text-align: center;
+}
