@@ -5,6 +5,10 @@
     font-family: 'Source Sans Pro', 'sans-serif';
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 /* Cabeçalho da página */
 
 header{
@@ -34,12 +38,12 @@ header{
 /* Banner principal */
 .banner{
     width: 100%;
-    min-height: 500px;
+    max-height: 500px;
     height: 100%;
     background-image: url(../assets/recepcao.png);
+    background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    background-size: 100%;
 }
 
 .box-titulo-banner{
@@ -178,6 +182,10 @@ footer{
 
 .limita-footer p{
     line-height: 30px;
-    padding: 30px;
+    padding: 10px;
     font-size: 18px;
+}
+
+.limita-footer p:last-of-type{
+    font-size: 15px;
 }

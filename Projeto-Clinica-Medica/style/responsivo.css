@@ -1,0 +1,38 @@
+@media (max-width:425px){
+    .menu-topo{
+        flex-direction: column;
+    }
+
+    .menu-topo nav{
+        border-top: 2px solid #028f8f;
+        padding: 15px;
+    }
+
+    .menu-topo nav a{
+        font-size: 20px;
+    }
+
+    .banner{
+        min-height: 200px;
+    }
+
+    .box-titulo-banner{
+        max-width: 400px;
+        width: 100%;
+        padding: 100px 0;
+        margin: 0 auto;
+    }
+
+    .box-titulo-banner h1{
+        font-size: 20px;
+    }
+
+    
+    .box-titulo-banner h1{
+        width: 200px; 
+    }
+
+    .box-titulo-banner h1:last-of-type{
+        width: 300px;
+    }
+}
