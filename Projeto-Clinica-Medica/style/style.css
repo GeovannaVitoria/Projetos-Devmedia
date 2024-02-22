@@ -1,0 +1,183 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Source Sans Pro', 'sans-serif';
+}
+
+/* Cabeçalho da página */
+
+header{
+    background-color: lightblue;
+}
+
+.menu-topo{
+    width: 100%;
+    max-width: 1024px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menu-topo nav a{
+    text-decoration: none;
+    color: #fff;
+    padding: 10px;
+    font-size: 18px;
+}
+
+.menu-topo a:hover{
+    color: #0000008c;
+}
+
+/* Banner principal */
+.banner{
+    width: 100%;
+    min-height: 500px;
+    height: 100%;
+    background-image: url(../assets/recepcao.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+}
+
+.box-titulo-banner{
+    max-width: 1024px;
+    width: 100%;
+    padding: 200px 0;
+    margin: 0 auto;
+}
+
+.box-titulo-banner h1{
+    font-size: 40px;
+    width: 400px;
+    text-transform: uppercase;
+    color: #ffff;
+    font-weight: normal;
+}
+
+.box-titulo-banner h1:last-of-type{
+    width: 550px;
+}
+
+/* Seção Sobre  */
+.container-sobre, .especialidades, .contato{
+    max-width: 1024px;
+    width: 100%;
+    margin: 0 auto;
+    color: #0000008c;
+}
+
+.titulo-sobre, .titulo-especialidades{
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.titulo-sobre h2, .titulo-especialidades h2{
+    font-weight: 800;
+}
+
+.titulo-sobre p, .titulo-especialidades p{
+    font-size: 18px;
+    width: 650px;
+    margin: 0 auto;
+}
+
+.lista-sobre{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.lista-sobre ul{
+    height: 250px;
+}
+
+.lista-sobre ul h2{
+    margin-bottom: 20px;
+    font-weight: normal;
+}
+
+.lista-sobre ul li{
+    font-size: 18px;
+    padding: 2px;
+}
+
+/* Seção Especialidades */
+.container-cards-especialidades{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.container-cards-especialidades img{
+    width: 300px;
+    height: 250px;
+}
+
+figure{
+    box-shadow: 0 0 10px 3px #0000008c;
+    border-radius: 4px;
+    margin-bottom: 60px;
+}
+
+figcaption{
+    text-align: center;
+    font-size: 20px;
+    padding: 10px;
+    text-transform: uppercase;
+}
+
+.link-horarios{
+    margin: 0 auto;
+    text-align: center;
+}
+
+.especialidades a{
+    text-decoration: none;
+    text-align: center;
+    padding: 20px 20px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    color: #fff;
+    background-color: #028f8f;
+}
+
+/* Seção Contato */
+.contato{
+    text-align: center;
+    padding: 20px 50px;
+    margin-top: 50px;
+}
+
+.contato p{
+    line-height: 50px;
+    font-size: 18px;
+    padding: 10px;
+}
+
+.contato iframe{
+    width: 100%;
+}
+
+/* Seção Footer */
+footer{
+    background-color: #028f8f;
+    color: #fff;
+}
+
+.limita-footer{
+    max-width: 1024px;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.limita-footer p{
+    line-height: 30px;
+    padding: 30px;
+    font-size: 18px;
+}
