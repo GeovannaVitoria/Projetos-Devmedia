@@ -1,0 +1,173 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Poppins;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+/* seção menu */
+
+header{
+    background-color: #2f86d6;
+    display: flex;
+    padding: 35px 0px;
+}
+
+.menu-navigation{
+    display: flex;
+    justify-content: space-between;
+    width: 1024px;
+    margin: 0 auto;
+}
+
+.menu-logo{
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu-logo img{
+    width: 80px;
+    height: 80px;   
+}
+
+.menu-titulo{
+    margin-left: 15px;
+}
+
+.menu-titulo h1{
+    font-size: 30px;
+}
+
+.menu-titulo h2{
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.menu-lista{
+    margin: auto 0;
+}
+
+.menu-lista ul{
+    display: flex;
+    justify-content: space-around;
+}
+
+.menu-lista ul li{
+    list-style-type: none;
+    padding-right: 20px;    
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 18px;
+}
+
+.menu-lista ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+
+/* seção table */
+
+.tabela-precos{
+    padding: 100px 0px ;
+}
+
+table{
+    width: 1024px;  
+    margin: 0 auto;
+    /* border: 1px solid; */
+}
+
+.colunas-head{
+    background-color: #f1f3f7;
+    padding: 15px;
+    width: 200px;
+}
+
+.colunas-head p{
+    color: #a8a4a4;
+    font-weight: 200;
+    font-size: 14px;
+}
+
+.colunas-head h2{
+    font-size: 35px;
+}
+
+.coluna-body-titulo p{
+    background-color: #f1f3f7;
+    padding: 20px;
+    font-weight: 500;
+    margin-bottom: 2px;
+    height: 70px;
+    width: 300px;
+}
+
+.coluna-body-texto{
+    text-align: center;
+    font-weight: 400;
+    width: 200px;
+    height: 70px;
+    padding-top: 20px;
+    margin: 2px;
+    align-items: center;
+    border-right: 1px solid #f1f3f7;
+    border-bottom: 1px solid #f1f3f7;
+}
+
+.destaque-azul{
+    background-color: #2f86d6;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    margin: 0 auto;
+    margin-top: 5px;
+}
+
+footer{
+    padding: 100px 0px;
+    background-color: #2f86d6;
+}
+
+.conteudo-rodape-precos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 130px;
+}
+
+.menu-logo-rodape{
+    width: 320px;
+    display: flex;
+    margin: 0 auto;
+}
+
+.menu-logo-rodape img{
+    width: 80px;
+    height: 80px;   
+}
+
+.texto-rodape-precos{
+    color: #fff;
+}
+
+.dev-por{
+    background-color: #fff;
+    color: #000000;
+    padding: 20px 0px;
+    width: 100%;
+    text-align: center;
+    font-weight: 600;
+}
+
+.destaque{
+    color: #2f86d6;
+}

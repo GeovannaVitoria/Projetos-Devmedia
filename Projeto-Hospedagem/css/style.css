@@ -1,0 +1,327 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Poppins;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+/* seção cabeçalho da página */
+
+header{
+    background-color: #fff;
+    display: flex;
+    padding: 35px 0px;
+}
+
+.menu-navigation{
+    display: flex;
+    justify-content: space-between;
+    width: 1024px;
+    margin: 0 auto;
+}
+
+.menu-logo{
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu-logo img{
+    width: 80px;
+    height: 80px;   
+}
+
+.menu-titulo{
+    margin-left: 15px;
+}
+
+.menu-titulo h1{
+    font-size: 30px;
+}
+
+.menu-titulo h2{
+    color: #2f86d6;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.menu-lista{
+    margin: auto 0;
+}
+
+.menu-lista ul{
+    display: flex;
+    justify-content: space-around;
+}
+
+.menu-lista ul li{
+    list-style-type: none;
+    padding-right: 20px;    
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 18px;
+}
+
+.menu-lista ul li a{
+    text-decoration: none;
+    color: #233032;
+}
+
+/* seção banner principal */
+
+main{
+    padding: 50px 0;
+    background-color: #2f86d6;
+}
+
+.main-banner{
+    width: 1024px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    color: #f1f3f7;
+}
+
+.main1{
+    width: 470px;
+    margin: auto 0;
+}
+
+.lista-main ul{
+    display: flex;
+    padding-bottom: 20px;
+}
+
+.lista-main ul li{
+    list-style-type:none;
+    padding-right: 10px;
+}
+
+.main-titulo h1{
+    font-size: 28px;
+    padding-bottom: 20px;
+}
+
+.main-titulo p{
+    font-size: 17px;
+}
+
+.main2{
+    width: 50%;
+}
+
+/* seção primeiro anúncio */
+
+.primeiro-anuncio{
+    background-color: #233032;
+    color: #fff;
+    padding: 40px 0px;
+}
+
+.conteudo-anuncio{
+    width: 1024px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.titulo-anuncio{
+    width: 600px;
+}
+
+.titulo-anuncio h1{
+    font-size: 25px;
+    padding-bottom: 5px;
+}
+
+.titulo-anuncio h2{
+    font-size: 17px;
+    font-weight: 400;
+}
+
+button{
+    border: none;
+    width: 260px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box-image{
+    width: 20   px;
+    height: 18px;
+    margin-right: 8px;
+}
+
+button a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 17px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.btn-primer-anuncio{
+    background-color: #2f86d6;
+}
+
+/* seção motivos */
+
+.motivos{
+    padding: 100px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 600px;
+}
+
+.motivos-titulo{
+    width: 900px;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 21px;
+}
+
+.destaque{
+    color: #2f86d6;
+}
+
+.motivos-topicos{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1024px;
+    margin: 0 auto;
+}
+
+.card-topicos{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    width: 33%;
+    height: 230px;
+}
+
+.motivos-img{
+    width: 100px;
+    padding-bottom: 20px;
+}
+
+.motivos-figcaption{
+    font-weight: bold;  
+    font-size: 19px;
+}
+
+/* seção planos */
+
+.planos{
+    padding: 100px 0px;
+    background-color: #f1f3f7    ;
+}
+
+.planos h1{
+    text-align: center;
+    padding-bottom: 70px;
+    font-size: 30px;
+}
+
+table{
+    width: 1024px;
+    border-radius: 5px;
+    margin: 0 auto;
+    background-color: #f6f6f6;
+    box-shadow: 0px 0px  30px  20px rgba(47, 134, 214, 1)  ;
+}
+
+.conteudo-head-planos{
+    background-color: #fff;
+    border: 0.5px solid #f1f3f7;
+    padding: 15px;
+}
+
+.conteudo-head-planos h2{
+    font-size: 17px;
+    padding-bottom: 10px;
+}
+
+.conteudo-head-planos img{ 
+    width: 100px;
+    height: 100px;
+    margin-bottom: 10px;
+}
+
+.conteudo-head-planos p{
+    color: #a8a4a4;
+    font-weight: normal;
+    font-size: 13px;
+    width: 145px;
+    margin: 0 auto;
+}
+
+.conteudo-body-planos p{
+    border: 0.5px solid #f1f3f7;
+    height: 60px;
+    text-align: center;
+    padding-top: 20px;
+    font-weight: 500;
+}
+
+.conteudo-body-planos p:nth-child(odd){
+    background-color: #f6f6f6;
+}
+
+.conteudo-body-planos p:nth-child(even){
+    background-color: #fff;
+}
+
+/* seção segundo anúncio */
+
+.segundo-anuncio{
+    background-color: #2f86d6;
+    color: #fff;
+    padding: 40px 0px;
+}
+
+.titulo-seg-anunc{
+    font-size: 17px;
+}
+
+.btn-seg-anuncio{
+    background-color: #233032;
+    font-size: 18px;
+}
+
+/* seção rodapé */
+footer{
+    background-color: #fff;
+    padding-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 490px;
+}
+
+.conteudo-rodape{
+    text-align: center;
+    font-weight: 600;
+    line-height: 45px;
+}
+
+.dev-por{
+    background-color: #f1f3f7;
+    color: #000000;
+    padding: 20px 0px;
+    width: 100%;
+    text-align: center;
+    font-weight: 600;
+}
