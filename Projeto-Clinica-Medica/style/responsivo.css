@@ -36,3 +36,9 @@
         width: 300px;
     }
 }
+
+@media (max-width:768px){
+    .banner{
+        min-height: 300px;
+    }
+}
