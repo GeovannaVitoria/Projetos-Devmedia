@@ -1,0 +1,49 @@
+@media (max-width:768px){
+    .tabela-especialidades img{
+        display: none;
+    }
+
+    .tabela-especialidades table{
+        width: 100%;
+    }
+}
+
+@media (max-width:425px){
+    .menu-topo{
+        flex-direction: column;
+    }
+    
+    .menu-topo nav{
+        border-top: 2px solid #028f8f;
+        padding: 15px;
+    }
+    
+    .menu-topo nav a{
+        font-size: 20px;
+    }
+
+    .especialidades{
+        max-width: 3000px;
+        width: 100%;
+    }
+
+    .especialidades p{
+        width: 300px;
+    }
+
+    .links-especialidades{
+        display: flex;
+        flex-direction: row;
+        gap: 7px;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .main-especialidades a{
+        padding: 0 20px;
+        /* margin-bottom: 500px; */
+        /* border: 1px solid red; */
+    }
+
+}
