@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+/* Cabeçalho da página */
+
+.limita-topo{
+    max-width: 1024px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    padding: 10px 0;
+}
+
+.limita-topo img{
+    width: 40px;
+    height: 40px;
+}
+
+.limita-topo h1{
+    font-size: 25px;
+    font-weight: normal;
+    padding-left: 10px;
+    color: blueviolet;
+}
+
+/* Seção do Formulário */
+.container-form{
+    background-image: url(../assets/bahia.jpg);
+}
+
+.limita-form{
+    max-width: 1024px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 80px 0;
+    
+}
+
+.topo-form{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    background-color: blueviolet;
+    color: #ffff;
+    font-size: 12px;
+    padding: 10px 0;
+}
+
+.topo-form img{
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+    transform: rotate(-50deg);
+}
+
+form{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-direction: column;
+    background-color: #ffff;
+    padding: 30px 50px;
+}
+
+form legend{
+    font-weight: bold;
+    font-size: 23px;
+}
+
+form input{
+    width: 100%;
+    height: 30px;
+    padding: 10px;
+}
+
+form label{
+    padding: 10px 0;
+}
+
+.ida-volta, .origem-destino{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.ida-volta div, .origem-destino div{
+    display: flex;
+    flex-direction: column;
+    width: 48%;
+}
+
+.origem-destino select{
+    height: 30px;
+}
+
+.box-input{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.box-input input{
+    height: 15px;
+    width: 50%;
+}
+
+.box-input div{
+    display: flex;
+    align-items: center;
+    width: 90px;
+}
+
+button{
+    color: #ffff;
+    background-color: blueviolet;
+    padding: 10px;
+    border: none;
+    font-size: 16px;
+    margin-top: 20px;
+}

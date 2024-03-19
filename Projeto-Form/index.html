@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agência de Viagem</title>
+    <!-- Link do estilo -->
+    <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+    <header>
+        <div class="limita-topo">
+            <img src="assets/local-logo.png" alt="Logo">
+            <h1> Agência de Viagens </h1>
+        </div>
+    </header>
+
+    <main>
+        <div class="container-form">
+            <div class="limita-form">
+                <div class="topo-form">
+                    <img src="assets/aviao.png" alt="">
+                    <h2> Solicite um orçamento </h2>
+                </div>
+                <form method="post" action="https://www.devmedia.com.br/codigos/missao/front-end/agencia-de-viagens/
+                ">
+                    <legend>Informe seus dados</legend>
+
+                    <label for="">Nome</label>
+                    <input type="text" name="nome"  placeholder="Nome completo">
+
+                    <label for="">E-mail</label>
+                    <input type="text" name="email"placeholder="E-mail">
+
+                    <label for="">Celular</label>
+                    <input type="text" name="celular" placeholder="(xx) xxxxx-xxxx">
+
+                    <div class="ida-volta">
+                        <div>
+                            <label for="data-ida">Data da ida</label>
+                            <input type="date" name="data-ida" id="data-ida">
+                        </div>
+                        <div>
+                            <label for="data-volta">Data da volta</label>
+                            <input type="date" name="data-volta" id="data-volta">
+                        </div>
+                    </div>
+
+                    <div class="origem-destino">
+                        <div>
+                            <label for="origem">Origem</label>
+                            <select name="origem" id="origem">
+                                <option value="">Partindo de</option>
+                                <option value="AZ">Amazonas</option>
+                                <option value="BH">Belo Horizonte</option>
+                            </select>
+                        </div>
+                        <div>
+                            <label for="destino">Destino</label>
+                            <select name="destino" id="destino">
+                                <option value="">Indo para</option>
+                                <option value="SP">São Paulo</option>
+                                <option value="TO">Tocantins</option>
+                            </select>
+                        </div>
+                    </div>
+
+                   
+                    <label for="infantil">Quarto com cama infantil?</label>
+                    <div class="box-input">
+                        <div>
+                            <input type="radio" name="infantil" id="infantil-sim">
+                            <label for="infantil-sim">Sim</label>
+                        </div>
+                        <div>
+                            <input type="radio" name="infantil" id="infantil-nao">
+                            <label for="infantil-nao">Não</label>
+                        </div>
+                    </div>
+
+                    <label for="preferencias">Preferências da hospedagem</label>
+                    <div class="box-input">
+                        <div>
+                            <input type="checkbox" name="preferencias[]"  value="piscina" id="piscina">
+                            <label for="piscina">Piscina</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" name="preferencias[]"  value="piscina" id="wifi">
+                            <label for="wifi">Wi-fi</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" name="preferencias[]" value="piscina" id="garagem">
+                            <label for="garagem">Garagem</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" name="preferencias[]" value="piscina" id="suite">
+                            <label for="suite">Suíte</label>
+                        </div>
+                    </div>
+
+                    <button type="submit">Solicitar orçamento</button>
+                </form>
+            </div>
+
+        </div>
+    </main>
+
+
+</body>
+</html>
